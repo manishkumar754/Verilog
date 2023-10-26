@@ -1,0 +1,7 @@
+Running: xsim.dir/melay101_nonoverlapping_tb_behav/xsimk.exe -simmode gui -wdb melay101_nonoverlapping_tb_behav.wdb -simrunnum 0 -socket 54795
+Design successfully loaded
+Design Loading Memory Usage: 6344 KB (Peak: 6344 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 9824 KB (Peak: 9824 KB)
+Simulation CPU Usage: 3281 ms

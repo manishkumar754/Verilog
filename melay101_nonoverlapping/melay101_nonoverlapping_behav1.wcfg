@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="melay101_nonoverlapping_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="melay101_nonoverlapping" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2690500000fs"></ZoomStartTime>
+      <ZoomEndTime time="2724400001fs"></ZoomEndTime>
+      <Cursor1Time time="2807800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/melay101_nonoverlapping/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/melay101_nonoverlapping/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/melay101_nonoverlapping/d" type="logic">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/melay101_nonoverlapping/z" type="logic">
+      <obj_property name="ElementShortName">z</obj_property>
+      <obj_property name="ObjectShortName">z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/melay101_nonoverlapping/y" type="array">
+      <obj_property name="ElementShortName">y[1:0]</obj_property>
+      <obj_property name="ObjectShortName">y[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/melay101_nonoverlapping/A" type="array">
+      <obj_property name="ElementShortName">A[1:0]</obj_property>
+      <obj_property name="ObjectShortName">A[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/melay101_nonoverlapping/B" type="array">
+      <obj_property name="ElementShortName">B[1:0]</obj_property>
+      <obj_property name="ObjectShortName">B[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/melay101_nonoverlapping/C" type="array">
+      <obj_property name="ElementShortName">C[1:0]</obj_property>
+      <obj_property name="ObjectShortName">C[1:0]</obj_property>
+   </wvobject>
+</wave_config>

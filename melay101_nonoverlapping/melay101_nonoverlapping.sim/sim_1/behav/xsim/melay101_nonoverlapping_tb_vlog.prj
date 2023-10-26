@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../melay101_nonoverlapping.srcs/sources_1/new/melay101_nonoverlapping.v" \
+"../../../../melay101_nonoverlapping.srcs/sim_1/new/melay101_nonoverlapping_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
