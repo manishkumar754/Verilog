@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fsm_110_101_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fsm_110_101" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="315165fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="126"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/fsm_110_101/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_110_101/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_110_101/d" type="logic">
+      <obj_property name="ElementShortName">d</obj_property>
+      <obj_property name="ObjectShortName">d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_110_101/z" type="logic">
+      <obj_property name="ElementShortName">z</obj_property>
+      <obj_property name="ObjectShortName">z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_110_101/y" type="array">
+      <obj_property name="ElementShortName">y[1:0]</obj_property>
+      <obj_property name="ObjectShortName">y[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_110_101/A" type="array">
+      <obj_property name="ElementShortName">A[2:0]</obj_property>
+      <obj_property name="ObjectShortName">A[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_110_101/B" type="array">
+      <obj_property name="ElementShortName">B[2:0]</obj_property>
+      <obj_property name="ObjectShortName">B[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_110_101/C" type="array">
+      <obj_property name="ElementShortName">C[2:0]</obj_property>
+      <obj_property name="ObjectShortName">C[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_110_101/D" type="array">
+      <obj_property name="ElementShortName">D[2:0]</obj_property>
+      <obj_property name="ObjectShortName">D[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fsm_110_101/E" type="array">
+      <obj_property name="ElementShortName">E[2:0]</obj_property>
+      <obj_property name="ObjectShortName">E[2:0]</obj_property>
+   </wvobject>
+</wave_config>
