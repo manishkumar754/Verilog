@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 10 19:40:56 2023
+# Process ID: 13128
+# Current directory: C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12356 C:\Users\manis\Desktop\Verilog\Behavioral_Modeling\ringcounter\ringcounter.xpr
+# Log file: C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter/vivado.log
+# Journal file: C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter/ringcounter.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:20 . Memory (MB): peak = 845.711 ; gain = 116.234
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 10 19:50:21 2023...

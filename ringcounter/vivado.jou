@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 10 20:58:13 2023
+# Process ID: 12156
+# Current directory: C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10096 C:\Users\manis\Desktop\Verilog\Behavioral_Modeling\ringcounter\ringcounter.xpr
+# Log file: C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter/vivado.log
+# Journal file: C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter/ringcounter.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ringcounter.tcl
+synth_design -rtl -name rtl_1
+file mkdir C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter/ringcounter.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter/ringcounter.srcs/sim_1/new/ringcounter_tb.v w ]
+add_files -fileset sim_1 C:/Users/manis/Desktop/Verilog/Behavioral_Modeling/ringcounter/ringcounter.srcs/sim_1/new/ringcounter_tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+source ringcounter_tb.tcl
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source ringcounter_tb.tcl
+run 2000 ns
+close_sim
+close_sim
