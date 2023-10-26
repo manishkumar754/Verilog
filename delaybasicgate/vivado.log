@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Apr 30 18:47:10 2023
+# Process ID: 768
+# Current directory: C:/Users/manis/Desktop/Verilog/delaybasicgate
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12584 C:\Users\manis\Desktop\Verilog\delaybasicgate\delaybasicgate.xpr
+# Log file: C:/Users/manis/Desktop/Verilog/delaybasicgate/vivado.log
+# Journal file: C:/Users/manis/Desktop/Verilog/delaybasicgate\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/manis/Desktop/Verilog/delaybasicgate/delaybasicgate.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx2018/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 795.879 ; gain = 110.477
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: delaybasicgate
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 908.699 ; gain = 77.004
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'delaybasicgate' [C:/Users/manis/Desktop/Verilog/delaybasicgate/delaybasicgate.srcs/sources_1/new/delaybasicgate.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'delaybasicgate' (1#1) [C:/Users/manis/Desktop/Verilog/delaybasicgate/delaybasicgate.srcs/sources_1/new/delaybasicgate.v:11]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 943.422 ; gain = 111.727
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 943.422 ; gain = 111.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 943.422 ; gain = 111.727
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:29 ; elapsed = 00:00:23 . Memory (MB): peak = 1308.188 ; gain = 476.492
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:23 . Memory (MB): peak = 1308.188 ; gain = 476.492
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 30 18:50:30 2023...
