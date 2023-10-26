@@ -1,0 +1,24 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 13.03.2023 22:44:54
+// Design Name: 
+// Module Name: Dff_always
+// Project Name: 
+
+//////////////////////////////////////////////////////////////////////////////////
+
+module Dff_always(d0,di,clk);
+output d0;
+input di,clk;
+reg d0;
+initial
+d0=1'b0;
+always@(negedge clk) 
+d0=di;
+endmodule
+
+
+
