@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# 
+# Start of session at: Thu Jun 25 14:51:27 2026
+# Process ID: 25376
+# Current directory: C:/Users/preet/Desktop/Industrial_project/axi/axi.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/preet/Desktop/Industrial_project/axi/axi.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/preet/Desktop/Industrial_project/axi/axi.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
